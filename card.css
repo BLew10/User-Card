@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.user-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 400px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 10%;
+    font-family: cursive ;
+    padding-bottom: 15px;
+
+}
+
+.top-row-user {
+    flex: 1;
+    background-color: dodgerblue;
+    margin-bottom: 20px;
+
+}
+
+.bottom-row-user {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-end;
+    background-color:white;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 30px;
+
+}
+
+.section {
+    flex: 1;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: 700;
+}
+#city {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.main-section-user {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+
+
+#pfp {
+    position: relative;
+    top: 39%;
+    left: 5.5%;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 1.5%;
+}
+
+#marker {
+    height: 20px;
+    width: 15px;
+}
+
+#settings {
+    position: relative;
+    flex: 1;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin-top: -4%;
+    justify-content: space-between;
+}
+
+a {
+    color: dodgerblue;
+}
